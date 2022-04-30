@@ -1,0 +1,59 @@
+{
+    "store": "Wise Buy Books",
+    "shippingRegion": [
+        {
+            "region": "Europe",
+            "shippingMethod": ["DHL", "FedEx", "Local Post", "UPS"]
+        },
+
+        {
+            "region": "Asia",
+            "shippingMethod": ["DHL", "FedEx", "Local Post"]
+        },
+        
+        {
+            "region": "United States/Canada",
+            "shippingMethod": ["DHL", "FedEx", "Local Post", "UPS", "Amazon"]
+        },
+
+        {
+            "region": "Middle East",
+            "shippingMethod": ["DHL", "FedEx", "Local Post"]
+        }    
+    ],
+
+    "carrierInfo":[ 
+        {
+        "DHL": 
+        {
+        "shippingFee": "Free shipping",
+        "deliveryTime": "8-10 business days",
+        "isRegionRestricted": false
+        },
+            "FedEx": 
+            {
+            "shippingFee": "15$",
+            "deliveryTime": "8-15 business days",
+            "isRegionRestricted": false
+            },
+                "Local Post": 
+                {
+                "shippingFee": "Calculate your shipping fee",
+                "deliveryTime": "15-30 business days",
+                "isRegionRestricted": false
+                },
+                    "UPS": 
+                    {
+                    "shippingFee": "15$",
+                    "deliveryTime": "8-10 business days",
+                    "isRegionRestricted": true
+                    },
+                        "Amazon": 
+                        {
+                        "shippingFee": "Free shipping for Amazon Prime members.",
+                        "deliveryTime": "1-3 business days",
+                        "isRegionRestricted": true
+                        }
+        } 
+    ] 
+}

@@ -1,0 +1,71 @@
+{
+    "store": "Wise Buy Books",
+    "bookCategory": [
+        {
+            "organizedCrime": ["The Mafia: History and Legend", "Killing the Mob: The Fight Against Organized Crime in America", "Monster: The Autobiography of an L.A. Gang Member", "Five Families: The Rise, Decline, and Resurgence of America's Most Powerful Mafia Empires"],
+            "investing": ["The Intelligent Investor", "The Little Book That Still Beats the Market", "Common Stocks and Uncommon Profits and Other Writings", "Bull: A History of the Boom and Bust"]
+        }
+    ],
+
+    "organizedCrimeInfo": [
+        {
+            "author": "Marco Gasparini",
+            "bookName": "The Mafia: History and Legend",
+            "price": "95$",
+            "genre": "Organized Crime",
+            "inStock": true
+        },
+        {
+            "author": "Bill O'Reilly",
+            "bookName": "Killing the Mob: The Fight Against Organized Crime in America",
+            "price": "15$",
+            "genre": "Organized Crime",
+            "inStock": false
+        },
+        {
+            "author": "Sanyika Shakur",
+            "bookName": "Monster: The Autobiography of an L.A. Gang Member",
+            "price": "30$",
+            "genre": "Organized Crime",
+            "inStock": true
+        },
+        {
+            "author": "Selwyn Raab",
+            "bookName": "Five Families: The Rise, Decline, and Resurgence of America's Most Powerful Mafia Empires",
+            "price": "45$",
+            "genre": "Organized Crime",
+            "inStock": true
+        }
+    ],
+
+    "investorInfo":[
+        {
+            "author": "Benjamin Graham",
+            "bookName": "The Intelligent Investor",
+            "price": "18$",
+            "genre": "Finance",
+            "inStock": true
+        },
+        {
+            "author": "Joel Greenblatt",
+            "bookName": "The Little Book That Still Beats the Market",
+            "price": "16$",
+            "genre": "Finance",
+            "inStock": true
+        },
+        {
+            "author": "Philip A. Fisher",
+            "bookName": "Common Stocks and Uncommon Profits and Other Writings",
+            "price": "100$",
+            "genre": "Finance",
+            "inStock": false
+        },
+        {
+            "author": "Maggie Mahar",
+            "bookName": "Bull: A History of the Boom and Bust",
+            "price": "30$",
+            "genre": "Finance",
+            "inStock": true
+        }
+    ]
+}
